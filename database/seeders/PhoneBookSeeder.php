@@ -17,23 +17,23 @@ class PhoneBookSeeder extends Seeder
         PhoneBook::truncate();
         PhoneBook::create([
             'name' => 'Sadio Mane',
-            'number' => '012-34567890',
+            'number' => '012-3456789',
         ]);
         PhoneBook::create([
             'name' => 'Oxlade Chamberlain',
-            'number' => '012-44567890',
+            'number' => '012-4456789',
         ]);
         PhoneBook::create([
             'name' => 'Virgil Van Dijk',
-            'number' => '012-54567890',
+            'number' => '012-5456789',
         ]);
         PhoneBook::create([
             'name' => 'Allison Becker',
-            'number' => '012-64567890',
+            'number' => '012-6456789',
         ]);
         PhoneBook::create([
             'name' => 'James Beck',
-            'number' => '012-74567890',
+            'number' => '012-7456789',
         ]);
     }
 }
